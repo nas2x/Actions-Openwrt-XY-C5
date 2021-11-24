@@ -3,6 +3,7 @@
 - Openwrt源码是[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)。
 - Github Actions来自于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，[中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)。
 - 编译目标为小娱路由XY-C1/C5
+- 默认登陆IP 192.168.1.1 密码 password
 
 ## 编译固件配置说明
 
@@ -62,6 +63,11 @@ make defconfig
 - [关于Github Action自动编译Lean_Openwrt的配置修改问题](https://zhuanlan.zhihu.com/p/94527343)
 - [firker/diy-ziyong](https://github.com/firker/diy-ziyong)
 - [xiaoqingfengATGH/feeds-xiaoqingfeng](https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng)
+- [OpenWrt 编译 LuCI -> Applications 添加插件应用说明-Lean【2021.11.18更新】](https://www.right.com.cn/forum/thread-344825-1-1.html)
+- [利用Github Actions云编译并自定义OpenWrt固件【2021.11.05更新】](https://jarviswwong.com/github-actions-compile-opwnwrt-firmware.html)
+- [编译属于自己的OpenWrt固件【2021.08.05更新】](https://post.smzdm.com/p/ad27vkgn/)
+- [编译Lean的Openwrt固件全攻略【2021.8.18更新】](https://imgki.com/archives/openwrt-lean.html)
+- [OpenWRT 软件包中文对照说明](http://www.wbini.com/id-12.html)
 
 
 ## License
