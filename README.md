@@ -3,17 +3,16 @@
 - Openwrt源码是[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)。
 - Github Actions来自于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，[中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)。
 - 编译目标为小娱路由XY-C1/C5
-- 由于本人已经出手XY-C5，入手R2S，故此项目不再更新，欢迎fork自行修改。
 
 ## 编译固件配置说明
 
-### lean固件包含以下插件
+### 固件包含以下插件
 - IPv6支持
-- [SSR(Helloworld)](https://github.com/fw876/helloworld)
-- [Passwall](https://github.com/xiaorouji/openwrt-passwall/tree/main/luci-app-passwall)
+- Helloworld
+- 网络共享（Samba）
+- 硬盘休眠
 - UPnP
 - 解锁网易云灰色歌曲
-- 动态 DNS
 - 网络唤醒
 - Argon 主题
 
@@ -64,22 +63,6 @@ make defconfig
 - [firker/diy-ziyong](https://github.com/firker/diy-ziyong)
 - [xiaoqingfengATGH/feeds-xiaoqingfeng](https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng)
 
-## Acknowledgments
-
-- [Microsoft](https://www.microsoft.com)
-- [Microsoft Azure](https://azure.microsoft.com)
-- [GitHub](https://github.com)
-- [GitHub Actions](https://github.com/features/actions)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cisco](https://www.cisco.com/)
-- [OpenWrt](https://github.com/openwrt/openwrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [Lienol's OpenWrt](https://github.com/Lienol/openwrt)
-- [Cowtransfer](https://cowtransfer.com)
-- [WeTransfer](https://wetransfer.com/)
-- [Mikubill/transfer](https://github.com/Mikubill/transfer)
 
 ## License
 
